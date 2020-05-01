@@ -7,45 +7,6 @@
 	show_type: whether show this profile or not, 0:always show  1:only show in engineer mode  2:show according to current operator
    -->
 
-  <!-- GOOGLE-->
-  <agps_profile code="GOOGLE"
-      slp_name="GOOGLE"
-      backup_slp_name_var="GOOGLE_SPL_Name"
-      address="supl.google.com"
-      port="7275"
-      tls="1"
-      show_type="0"
-  />
-  
-  <!-- GOOGLE-->
-  <agps_profile code="GOOGLE nonTLS"
-      slp_name="GOOGLE"
-      backup_slp_name_var="GOOGLE_SPL_Name"
-      address="supl.google.com"
-      port="7276"
-      tls="0"
-      show_type="0"
-  />
-  <!-- GOOGLE-->
-  <agps_profile code="GOOGLE IP"
-      slp_name="GOOGLE"
-      backup_slp_name_var="GOOGLE_SPL_Name"
-      address="173.194.72.192"
-      port="7276"
-      tls="0"
-      show_type="0"
-  />
-  
-  <!-- NOKIA-->
-  <agps_profile code="NOKIA"
-      slp_name="NOKIA"
-      backup_slp_name_var="NOKIA_SPL_Name"
-      address="supl.nokia.com"
-      port="7275"
-      tls="1"
-      show_type="0"
-  />
-  
   <!-- Spirent Lab -->
   <agps_profile code=""
       slp_name="Lab - Spirent"
@@ -96,14 +57,14 @@
       show_type="1"
   />
 
-  <!-- Ericsson  Lab FQDN -->
-  <agps_profile code=""
-      slp_name="Lab - Ericsson FQDN"
-      backup_slp_name_var="Ericsson"
-      address="mvtvltegmpc.naladmz.ericsson.ca"
+  <!-- GOOGLE-->
+  <agps_profile code="GOOGLE"
+      slp_name="GOOGLE"
+      backup_slp_name_var="GOOGLE_SPL_Name"
+      address="supl.google.com"
       port="7275"
       tls="1"
-      show_type="1"
+      show_type="0"
   />
 
   <!-- ORANGE 00-->
@@ -347,17 +308,7 @@
 
    verify_timeout: (for UP only)
       determine how long does A-GPS Dialog for verification type need to show
-      Available value: 0~20
-      
-   dedicated_supl_apn: (for UP only)
-      determine whether to use the dedicated SUPL APN for A-GPS session
-      Available value: 0 (do not startUsingNetworkFeature/stopUsingNetworkFeature for SUPL in any case, user must establish the data connection before using A-GPS)
-      Available value: 1 (do startUsingNetworkFeature/stopUsingNetworkFeature for SUPL when data connection is on, user must establish the data connection before using A-GPS)
-      Available value: 2 (do startUsingNetworkFeature/stopUsingNetworkFeature in any case, user does not need to establish the data connection before using A-GPS)
-
-   epc_molr_lpp_payload (for 4G CP only)
-     specify the LPP payload in the EPC-MOLR message in hexString format (ex: "010203ff" = { 0x01, 0x02, 0x03, 0xff }
-     the purpose of this parameter is used for LAB testing only, please do not change it.
+      Available value: 0~20     
   -->
   <agps_conf_para
     agps_enable="yes"
@@ -372,13 +323,11 @@
     ecid_enable="yes"
     gpevt="no"
     log_file_max_num="10"
-    ni_request="yes"
+    ni_request="no"
     notify_timeout="8"
-    roaming="yes"
+    roaming="no"
     si_mode="mb"
     supl_version="1"
     verify_timeout="8"
-    dedicated_supl_apn="1"
-    epc_molr_lpp_payload="000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1fff"
   />
 </agps_profiles>
