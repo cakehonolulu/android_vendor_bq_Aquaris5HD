@@ -168,8 +168,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/Aquaris5HD/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
  vendor/bq/Aquaris5HD/proprietary/xbin/libmnlp_mt6628:system/xbin/libmnlp_mt6628 \
  vendor/bq/Aquaris5HD/proprietary/xbin/mnld:system/xbin/mnld \
- vendor/bq/Aquaris5HD/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
- vendor/bq/Aquaris5HD/proprietary/vendor/bin/rc.fac:system/vendor/bin/rc.fac \
  vendor/bq/Aquaris5HD/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin \
  vendor/bq/Aquaris5HD/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin \
  vendor/bq/Aquaris5HD/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
