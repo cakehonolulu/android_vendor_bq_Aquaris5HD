@@ -156,7 +156,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/Aquaris5HD/proprietary/lib/libm4u.so:system/lib/libm4u.so \
  vendor/bq/Aquaris5HD/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so.back \
  vendor/bq/Aquaris5HD/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
- vendor/bq/Aquaris5HD/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
  vendor/bq/Aquaris5HD/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
  vendor/bq/Aquaris5HD/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
  vendor/bq/Aquaris5HD/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
