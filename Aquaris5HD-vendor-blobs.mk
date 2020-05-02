@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
  vendor/bq/Aquaris5HD/proprietary/etc/firmware/WIFI_RAM_CODE_MT6628:system/etc/firmware/WIFI_RAM_CODE_MT6628 \
  vendor/bq/Aquaris5HD/proprietary/etc/firmware/catcher_filter.bin:system/etc/firmware/catcher_filter.bin \
  vendor/bq/Aquaris5HD/proprietary/etc/firmware/WMT.cfg:system/etc/firmware/WMT.cfg \
+ vendor/bq/Aquaris5HD/proprietary/etc/firmware/modem.img:system/etc/firmware/modem.img \
  vendor/bq/Aquaris5HD/proprietary/etc/throttle.sh:system/etc/throttle.sh \
  vendor/bq/Aquaris5HD/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
  vendor/bq/Aquaris5HD/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
