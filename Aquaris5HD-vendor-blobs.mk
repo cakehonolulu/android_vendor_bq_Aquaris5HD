@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
  vendor/bq/Aquaris5HD/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
  vendor/bq/Aquaris5HD/proprietary/etc/gps.conf:system/etc/gps.conf \
  vendor/bq/Aquaris5HD/proprietary/bin/drvbd:system/bin/drvbd \
- vendor/bq/Aquaris5HD/proprietary/bin/hald:system/bin/hald \
  vendor/bq/Aquaris5HD/proprietary/bin/6620_launcher:system/bin/6620_launcher \
  vendor/bq/Aquaris5HD/proprietary/bin/akmd8963:system/bin/akmd8963 \
  vendor/bq/Aquaris5HD/proprietary/bin/akmd8975:system/bin/akmd8975 \
